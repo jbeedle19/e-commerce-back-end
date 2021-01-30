@@ -27,7 +27,7 @@ npm start
 
 ![walkthrough](./assets/walkthrough.gif)
 
-[Video Link](placeholderlink)
+[Video Link](https://drive.google.com/file/d/1Sp15msrHh_O3SEbg1l7ASDGspvqObDkt/view)
 ## Built With
 * JavaScript
 * Node.js
