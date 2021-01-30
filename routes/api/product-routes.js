@@ -36,14 +36,8 @@ router.get('/:id', (req, res) => {
       'category_id'
     ],
     include: [
-      {
-        model: Category,
-        attributes: ['category_name']
-      },
-      {
-        model: Tag,
-        attributes: ['tag_name']
-      }
+      Category,
+      Tag,
     ]
   })
   .then(dbProductData => {
