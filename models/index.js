@@ -15,7 +15,6 @@ Category.hasMany(Product, {
   foreignKey: 'category_id'
 });
 
-// Do I need ( as: 'product_tag' ) for these associations??
 // Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag, {
   through: ProductTag,
